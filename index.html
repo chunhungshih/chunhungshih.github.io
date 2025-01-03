@@ -9,12 +9,6 @@
       font-family: 'Tahoma', sans-serif;  /* Apply font to the entire page */
     }
 
-    body, html {
-      margin: 0;
-      padding: 0;
-      height: 100%; /* Ensure full height of the page */
-    }
-    
     /* Banner style */
     .banner-container {
       position: relative;
@@ -24,6 +18,9 @@
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
+      margin: 0;                 /* No margin around the banner */
+      padding: 0;                /* No padding inside the banner */
+      display: block;  
     }
 
     /* Dark overlay */
@@ -71,11 +68,6 @@
       }
     }
 
-    .content {
-      margin: 10px;
-      padding: 20px;
-      text-align: center;
-    }
   </style>
 </head>
 <body>
