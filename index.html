@@ -6,7 +6,7 @@
   <title>GitHub Banner with Text</title>
   <style>
     /* Banner style */
-    .banner {
+    .banner-container {
       position: relative;
       width: 100%;
       height: 400px;
@@ -17,7 +17,7 @@
     }
 
     /* Dark overlay */
-    .banner::before {
+    .banner-container::before {
       content: '';
       position: absolute;
       top: 0;
@@ -64,7 +64,7 @@
 </head>
 <body>
 
-  <div class="banner">
+  <div class="banner-container">
     <div class="banner-text">
       <h1>Chun-Hung Shih</h1>
       <p>Check out my projects and contributions.</p>
