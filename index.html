@@ -3,35 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image Banner with Text and Tabs</title>
-  <link rel="stylesheet" href="styles.css">
-
-
+  <title>GitHub Banner with Text</title>
   <style>
-    /* Banner style */
     .banner {
       position: relative;
       width: 100%;
       height: 400px;
-      background-image: url('banner.jpg'); /* Replace with your image path */
+      background-image: url('images/banner.jpg');  /* Replace with your image path */
       background-size: cover;
       background-position: center center;
-      background-repeat: no-repeat;
     }
 
-    /* Dark overlay */
-    .banner::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.5); /* Dark overlay */
-      z-index: 1; /* Place overlay below the text */
-    }
-
-    /* Text overlay style */
     .banner-text {
       position: absolute;
       top: 50%;
@@ -39,8 +21,6 @@
       transform: translate(-50%, -50%);
       text-align: center;
       color: white;
-      font-family: Arial, sans-serif;
-      z-index: 2; /* Ensure text is above the overlay */
     }
 
     .banner-text h1 {
@@ -53,31 +33,28 @@
       margin-top: 10px;
     }
 
-    /* Responsive styles */
     @media screen and (max-width: 768px) {
       .banner-text h1 {
         font-size: 36px;
       }
-
       .banner-text p {
-        font-size: 16px;
+        font-size: 18px;
       }
     }
-  </style>    
+  </style>
 </head>
-  
 <body>
 
-  <!-- Image Banner with Text and Tabs -->
-  <div class="banner-container">
-    <!-- Banner Text -->
+  <div class="banner">
     <div class="banner-text">
-      <h1>Welcome to Our Website</h1>
-      <p>Explore amazing content and stay updated with the latest trends.</p>
+      <h1>Welcome to My GitHub Page!</h1>
+      <p>Explore my projects and more.</p>
     </div>
-  <div>
+  </div>
+
 </body>
 </html>
+
   
 
     <header>
