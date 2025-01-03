@@ -9,7 +9,7 @@
       font-family: 'Tahoma', sans-serif;  /* Apply font to the entire page */
     }
 
-    html, body1 {
+    html, body {
       margin: 0;
       padding: 0;
       height: 100%; /* Ensure the body takes the full height */
@@ -24,9 +24,6 @@
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
-      margin: 0;                 /* No margin around the banner */
-      padding: 0;                /* No padding inside the banner */
-      display: block;  
     }
 
     /* Dark overlay */
@@ -72,6 +69,22 @@
       .banner-text p {
         font-size: 16px;
       }
+    }
+
+    /* Body text below the banner */
+    .content {
+      margin: 20px;              /* Apply margin to the body content */
+      padding: 0;                /* Optional: add padding if needed */
+    }
+
+    .content h1 {
+      font-size: 2em;            /* Style for header */
+      margin-bottom: 10px;       /* Margin below the header */
+    }
+
+    .content p {
+      font-size: 1.2em;          /* Style for paragraph text */
+      line-height: 1.6;          /* Line height for readability */
     }
 
   </style>
