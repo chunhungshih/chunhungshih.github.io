@@ -113,8 +113,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 60px; /* Ensure the content is below the fixed tab banner */    
-    background-position: center;
-    width: 80%;
+    width: 100%;
     max-width: 1200px;
     padding: 20px;
     background-color: white;
