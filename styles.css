@@ -31,19 +31,6 @@
     background-color: #575757;
 }
 
-/* Profile container */
-.profile-container {
-    margin-top: 60px; /* Ensure the content is below the fixed tab banner */    
-    display: flex;
-    align-items: center; /* Center align items vertically */
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    max-width: 800px;
-    width: 100%;
-    padding: 20px;
-}
 
 /* Profile photo styles */
 .profile-photo img {
