@@ -34,7 +34,7 @@
 .content {
     margin-top: 60px; /* Ensure the content is below the fixed tab banner */
     padding: 20px;
-    font-family: Arial, sans-serif;
+    font-family: 'Tahoma', sans-serif;
 }
 
 h1 {
