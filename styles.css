@@ -35,8 +35,8 @@
 /* Profile photo styles */
 .profile-photo img {
     margin-top: 60px; /* Ensure the content is below the fixed tab banner */    
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%; /* Makes the image round */
     object-fit: cover;
     margin-right: 20px; /* Space between image and text */
