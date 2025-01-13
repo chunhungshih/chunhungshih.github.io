@@ -65,6 +65,14 @@
       .banner-text p {
         font-size: 16px;
       }
+
+      .content h1 {
+        font-size: 36px;
+      }
+
+      .content p {
+        font-size: 16px;
+      }        
     }
 
 /* General Reset */
