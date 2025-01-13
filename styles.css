@@ -34,6 +34,7 @@
 
 /* Profile photo styles */
 .profile-photo img {
+    display: flex; /* Align items side by side */
     margin-top: 60px; /* Ensure the content is below the fixed tab banner */    
     width: 350px;
     height: 350px;
@@ -47,7 +48,7 @@
 
 /* Main Content Styles */
 .content {
-    flex: 1;
+    flex: 1; /* Align items side by side */
     margin-top: 60px; /* Ensure the content is below the fixed tab banner */
     padding: 20px;
     font-family: 'Tahoma', sans-serif;
