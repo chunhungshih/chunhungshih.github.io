@@ -1,0 +1,47 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tab Banner Styles */
+.tab-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.tab-banner a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.tab-banner a:hover {
+    background-color: #575757;
+}
+
+/* Main Content Styles */
+.content {
+    margin-top: 60px; /* Ensure the content is below the fixed tab banner */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+}
