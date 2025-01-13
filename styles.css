@@ -8,12 +8,11 @@
       margin: 0;
       padding: 0;
       height: 100%; /* Ensure the body takes the full height */
-      display: flex;
     }
     
     /* Banner style */
     .banner-container {
-      position: fixed;
+      position: relative;
       width: 100%;
       height: 400px;
       background-image: url('banner.jpg'); /* Replace with your image path */
