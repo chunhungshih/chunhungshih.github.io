@@ -57,11 +57,13 @@
 .content h1 {
     font-size: 2em;            /* Style for header */
     margin-bottom: 10px;       /* Margin below the header */
+    margin-right: 400px;
     text-align: justify;
 }
 
     .content p {
     font-size: 1.2em;          /* Style for paragraph text */
     line-height: 1.6;          /* Line height for readability */
+    margin-right: 400px;
     text-align: justify;
 }
