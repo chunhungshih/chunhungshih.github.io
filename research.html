@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chun-Hung Shih</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Tahoma', sans-serif;  /* Apply font to the entire page */
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%; /* Ensure the body takes the full height */
+    }
+    
+    /* Banner style */
+    .banner-container {
+      position: relative;
+      width: 100%;
+      height: 400px;
+      background-image: url('banner.jpg'); /* Replace with your image path */
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
+    /* Dark overlay */
+    .banner-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+      z-index: 1; /* Place overlay below the text */
+    }
+
+    /* Text overlay style */
+    .banner-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      font-family: Tahoma, sans-serif;
+      z-index: 2; /* Ensure text is above the overlay */
+    }
+
+    .banner-text h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    .banner-text p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    /* Responsive styles */
+    @media screen and (max-width: 768px) {
+      .banner-text h1 {
+        font-size: 36px;
+      }
+
+      .banner-text p {
+        font-size: 16px;
+      }
+    }
+
+
+
+  </style>
+</head>
+<body>
+
+    <!-- Tab Banner -->
+    <div class="tab-banner">
+        <a href="https://chunhungshih.github.io/">Home</a>
+        <a href="#Research">Research</a>
+        <a href="#CV">CV</a>
+    </div>
+
+  
+  <div class="banner-container">
+    <div class="banner-text">
+      <h1>Research</h1>
+      <p>Publications and Presentations</p>
+    </div>
+  </div>
+  
+  <div class="content">
+    <h1>Publications</h1>
+    <p><b>2024</b>. Genric Modals in Mandarin. In Carcassi F., Johnson T., Knudstorp S., Parrado S., Robledo P. & Sbardolini G (Eds), <i>Proceedings of the 24th Amsterdam Colloquium 2024 (AC2024)</i>i> (pp. 337-343).</p>
+      
+    <h1>Presentations</h1>
+    <p><b>2025</b>. Ki-passives in Budai Rukai. Poster presented at the <i>101th Annual Meeting of the Linguistic Society of America (LSA 101)</i>. Philadelphia, Jan. 9-12, 2024.</p>
+    <br>
+    <p></p>
+  </div>
+  
+</body>
+</html>
+
+</body>
+</html>
