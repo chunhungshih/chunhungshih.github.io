@@ -114,7 +114,7 @@
     justify-content: space-between;
     margin-top: 60px; /* Ensure the content is below the fixed tab banner */    
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     padding: 20px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
