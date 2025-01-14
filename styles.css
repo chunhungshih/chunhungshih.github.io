@@ -68,10 +68,12 @@
 
       .content h1 {
         font-size: 28px;
+        text-align: left;  
       }
 
       .content p {
         font-size: 12px;
+        text-align: left;    
       }        
 
       .container {
