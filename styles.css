@@ -10,7 +10,7 @@
       height: 100%; /* Ensure the body takes the full height */
     }
     
-    /* Banner style */
+    /* Image Banner style */
     .banner-container {
       position: relative;
       display: flex;
@@ -124,6 +124,8 @@
     padding: 0px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; 
+    
 }
 
 /* Profile photo styles */
