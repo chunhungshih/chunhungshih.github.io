@@ -152,7 +152,7 @@
 /* Main Content Styles */
 .content {
     margin-top: 60px; /* Ensure the content is below the fixed tab banner */
-    padding: 50px;
+    padding: 30px;
     font-family: 'Tahoma', sans-serif;
 }
 
