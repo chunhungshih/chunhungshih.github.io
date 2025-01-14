@@ -73,6 +73,12 @@
       .content p {
         font-size: 16px;
       }        
+
+      .container {
+        flex-direction: column; /* Stack items vertically on small screens */
+        padding: 15px; /* Reduce padding for smaller screens */
+        margin-top: 20px; /* Reduce the top margin for mobile */
+        }
     }
 
 /* General Reset */
@@ -113,7 +119,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 60px; /* Ensure the content is below the fixed tab banner */    
-    width: 100%;
+    width: 80%;
     max-width: 1000px;
     padding: 20px;
     background-color: white;
