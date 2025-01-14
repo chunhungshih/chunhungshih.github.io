@@ -140,7 +140,7 @@
 /* Profile photo styles */
 .profile-photo img {
     display: flex;
-    margin-top: 80px; /* Ensure the content is below the fixed tab banner */    
+    margin-top: 90px; /* Ensure the content is below the fixed tab banner */    
     width: 350px;
     height: 350px;
     border-radius: 50%; /* Makes the image round */
@@ -153,7 +153,7 @@
 /* Main Content Styles */
 .content {
     margin-top: 60px; /* Ensure the content is below the fixed tab banner */
-    padding: 50px;
+    padding: 40px;
     font-family: 'Tahoma', sans-serif;
 }
 
