@@ -65,6 +65,15 @@
       .banner-text p {
         font-size: 16px;
       }
+        
+      .content h1 {
+        font-size: 26px;
+      }
+
+      .content p {
+        font-size: 16px;
+      }    
+        
 
       .container .content h1 {
         font-size: 26px;
@@ -74,15 +83,7 @@
       .container .content p {
         font-size: 16px;
         text-align: left;    
-      }        
-
-      .content h1 {
-        font-size: 26px;
-      }
-
-      .content p {
-        font-size: 14px;
-      }        
+      }            
         
       .container {
         flex-direction: column; /* Stack items vertically on small screens */
