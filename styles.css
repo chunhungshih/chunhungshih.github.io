@@ -66,14 +66,13 @@
         font-size: 16px;
       }
         
-      .content h1 {
+      .content:not(.container .content) h1 {
         font-size: 26px;
       }
 
-      .content p {
+      .content:not(.container .content) h1 {
         font-size: 16px;
-      }    
-        
+      }   
 
       .container .content h1 {
         font-size: 26px;
