@@ -141,6 +141,7 @@
 .profile-photo img {
     display: flex;
     margin-top: 90px; /* Ensure the content is below the fixed tab banner */    
+    margin-left: 70px
     width: 350px;
     height: 350px;
     border-radius: 50%; /* Makes the image round */
