@@ -152,8 +152,9 @@
 
 /* Main Content Styles */
 .content {
-    margin-top: 60px; /* Ensure the content is below the fixed tab banner */
+    margin-top: 70px; /* Ensure the content is below the fixed tab banner */
     margin-right: 70px;
+    margin-left: 70px;
     padding: 40px;
     font-family: 'Tahoma', sans-serif;
 }
