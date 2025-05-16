@@ -5,7 +5,7 @@
     }
 
     html, body {
-      margin: 0;
+      margin: 20px;
       padding: 0;
       height: 100%; /* Ensure the body takes the full height */
     }
@@ -58,6 +58,11 @@
 
     /* Responsive styles */
     @media screen and (max-width: 768px) {
+      html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%; /* Ensure the body takes the full height */
+    }        
       .banner-text h1 {
         font-size: 36px;
       }
