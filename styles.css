@@ -5,7 +5,7 @@
     }
 
     html, body {
-      margin: 20px;
+      margin: 0;
       padding: 0;
       height: 100%; /* Ensure the body takes the full height */
     }
@@ -95,13 +95,6 @@
         margin-top: 20px; /* Reduce the top margin for mobile */
         }
     }
-
-/* General Reset */
-* {
-    margin: 20px;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 /* Tab Banner Styles */
 .tab-banner {
