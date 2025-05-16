@@ -58,7 +58,7 @@
 
     /* Responsive styles */
     @media screen and (max-width: 768px) {
-      html, body {
+      .content {
       margin: 0;
       padding: 0;
       height: 100%; /* Ensure the body takes the full height */
