@@ -6,7 +6,7 @@
 
     html, body {
       margin: 0;
-      padding: 20px;
+      padding: 0;
       height: 100%; /* Ensure the body takes the full height */
     }
     
