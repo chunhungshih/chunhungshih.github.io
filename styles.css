@@ -175,4 +175,11 @@
         padding: 15px; /* Reduce padding for smaller screens */
         margin-top: 20px; /* Reduce the top margin for mobile */
         }
+
+    .profile-photo img {    
+        margin-left: 20px;
+        margin-right: 20px;        
+        }
+        
+        
     }
