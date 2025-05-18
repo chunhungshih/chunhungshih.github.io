@@ -144,7 +144,7 @@
     @media screen and (max-width: 768px) {
       .content {
       margin: 0;
-      padding: 0;
+      padding: 20px;
       height: 100%; /* Ensure the body takes the full height */
     }        
       .banner-text h1 {
