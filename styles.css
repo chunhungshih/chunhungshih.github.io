@@ -173,7 +173,7 @@
       .container {
         flex-direction: column; /* Stack items vertically on small screens */
         padding: 15px; /* Reduce padding for smaller screens */
-        margin-top: 20px; /* Reduce the top margin for mobile */
+        margin-top: 10px; /* Reduce the top margin for mobile */
         }
 
       .profile-photo img {    
