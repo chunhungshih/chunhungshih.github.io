@@ -177,7 +177,7 @@
         }
 
       .profile-photo img {    
-        margin: 0 auto; /* This centers the image horizontally */
-        display: block; /* This is necessary for 'margin: auto' to work */   
+        margin-left: 10px;
+        margin-right: 10px;
         }
     }
